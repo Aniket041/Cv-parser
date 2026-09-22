@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest_tmp/
+.pytest_field_checks*/
+data/*.db
+data/*.db-*
+data/training/
+data/training_runs/
+
+# generated eval output
+eval/results/
+
+# Candidate CVs - personal data, never commit
+Transfered Cv Data/
+
+# Evaluation labels contain candidate names and contact details
+eval/labels.json
+eval/labels_manual.json

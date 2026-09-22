@@ -1,0 +1,5 @@
+# Separate training environment; the parser does not require these packages.
+torch>=2.6
+transformers>=4.51,<5
+peft>=0.15,<1
+accelerate>=1.5,<2

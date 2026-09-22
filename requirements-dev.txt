@@ -1,0 +1,5 @@
+# Tests and the evaluation harness
+-r requirements-api.txt
+-r requirements-app.txt
+pytest>=8.0
+httpx2
